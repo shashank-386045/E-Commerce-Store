@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Admin",
+      "email": "admin@aura.in",
+      "role": "admin",
+      "createdAt": "2026-05-25T10:45:16.516Z",
+      "passwordHash": "admin"
+    },
+    {
+      "id": "u2",
+      "name": "Shashank N.",
+      "email": "shashank.nuthalapati06@gmail.com",
+      "role": "user",
+      "createdAt": "2026-05-25T10:45:16.516Z",
+      "passwordHash": "user123"
+    }
+  ],
+  "products": [
+    {
+      "id": "p9",
+      "name": "wireless Bluetooth Headphones",
+      "description": "High-fidelity wireless Bluetooth headphones featuring deep bass response and premium acoustic comfort.",
+      "details": "Ergonomic leather earmuffs, integrated voice assistant, up to 45 hours playtime on a single usb-c charge.",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "category": "Electronics",
+      "stock": 19,
+      "rating": 5,
+      "createdAt": "2026-05-25T11:00:00.000Z",
+      "reviews": []
+    }
+  ],
+  "orders": [
+    {
+      "userId": "u2",
+      "userEmail": "shashank.nuthalapati06@gmail.com",
+      "items": [
+        {
+          "productId": "p9",
+          "name": "wireless Bluetooth Headphones",
+          "price": 1500,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        }
+      ],
+      "totalAmount": 1650,
+      "shippingAddress": {
+        "fullName": "Shashank N.",
+        "addressLine": "gandhi road, 10-7-291 tirupati, Andhra Pradesh",
+        "city": "tirupati",
+        "state": "Andhra Pradesh",
+        "postalCode": "517501",
+        "phone": "6302634475"
+      },
+      "paymentMethod": "UPI ID (GPay/PhonePe)",
+      "id": "order_1002",
+      "status": "Delivered",
+      "trackingNumber": "TRK-IN-31597134",
+      "createdAt": "2026-05-25T11:09:23.055Z"
+    },
+    {
+      "id": "order_1001",
+      "userId": "u2",
+      "userEmail": "shashank.nuthalapati06@gmail.com",
+      "items": [
+        {
+          "productId": "p3",
+          "name": "Monsoon Rain Therapeutic Mist",
+          "price": 1150,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "productId": "p5",
+          "name": "Wild Lavender Nilgiri White Tea",
+          "price": 950,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?auto=format&fit=crop&q=80&w=600"
+        }
+      ],
+      "totalAmount": 2100,
+      "shippingAddress": {
+        "fullName": "Shashank Nuthalapati",
+        "addressLine": "Flat No. 402, Signature Residency, Gachibowli",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "postalCode": "500032",
+        "phone": "+91 98765 43210"
+      },
+      "paymentMethod": "Credit Card",
+      "status": "Cancelled",
+      "trackingNumber": "TRK-IN-90871142",
+      "createdAt": "2026-05-23T22:45:16.516Z"
+    }
+  ],
+  "catalogWiped": false
+}

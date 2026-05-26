@@ -1,0 +1,6 @@
+{
+  "name": "E-Commerce Store",
+  "description": "A cool, modern, and aesthetic full-stack e-commerce store with transparent icons, smooth transitions, INR pricing, role-based access control, product management, and order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
